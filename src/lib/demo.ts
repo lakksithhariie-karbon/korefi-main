@@ -85,12 +85,12 @@ export const SOURCE_HEALTH: SourceRow[] = [
   {
     name: "Uber Eats",
     type: "Delivery",
-    lastDate: "2026-08-31",
-    latestLoaded: "Finance through August",
+    lastDate: "2026-09-30",
+    latestLoaded: "Financials through September",
     rows: 4339,
     locations: 4,
     status: "Older export",
-    note: "Order history ends July 31; payout and payment reporting extends through August.",
+    note: "Order history ends July 31; payment reporting extends through September 30 and payouts through September.",
   },
   {
     name: "Toast",
