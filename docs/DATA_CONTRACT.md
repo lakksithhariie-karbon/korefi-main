@@ -33,7 +33,7 @@ Payout ledger entries are sourced separately from `doordash.financial_payout_sum
 - Square summary: gross $692,831.60, refund -$705.27, same net sales/tax/discounts when adjusting for refunds. Do not confuse gross before and after returns.
 - DoorDash: orders/financial detail through 2026-10-04. Four LA stores.
 - Grubhub: orders through 2026-10-05. Four LA stores.
-- Uber Eats: orders through 2026-07-31; financials through 2026-08-31. Date fields in payout exports are `DD/MM/YYYY` strings.
+- Uber Eats: order history through 2026-07-31; payment detail and payout summaries through 2026-09-30. Payment and payout date fields are `DD/MM/YYYY` strings and MUST be parsed as dates, not compared lexicographically. Financial reporting does not imply newer order-history rows.
 - Toast: historical Koreatown data only, through 2026-07-28. Do **not** add Toast and Square revenue.
 - QuickBooks: **Odd One Out Tea Koreatown LLC**, one company; no native Class/Department dimension. Never allocate those ledger amounts across all stores without store-level evidence.
 
