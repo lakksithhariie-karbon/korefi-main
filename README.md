@@ -54,7 +54,7 @@ This version does not claim that partner payout reports match bank deposits. Tha
 
 - Square: 82,577 line/event rows and 52,016 grouped transactions, five locations, California business dates through October 6, 2026.
 - DoorDash and Grubhub: primarily the four LA stores; exports through early October.
-- Uber Eats: historical order/payment exports end earlier.
+- Uber Eats: order history through July 31, 2026; payment/payout financial reports through September 30, 2026. Source report dates must be parsed from DD/MM/YYYY, not compared as plain text.
 - Toast: Koreatown only, older exports.
 - QuickBooks: one legal entity (Koreatown LLC); **not** automatically allocated to all five stores.
 
